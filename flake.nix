@@ -20,6 +20,7 @@
               ncurses.dev
               pkg-config
               wget
+              unzip
               pkgsCross.aarch64-multiplatform.gccStdenv.cc
             ] ++ pkgs.linux.nativeBuildInputs);
         }).env;
